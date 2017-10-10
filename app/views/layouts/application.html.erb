@@ -4,11 +4,32 @@
     <title>Photocard</title>
     <%= csrf_meta_tags %>
 
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
 
   <body>
+    <header class = "horizontal-logo">
+      <%= link_to image_tag("mysportscard_horizontal.png", size: "150x50", alt: "My Sports Card", class: "hlogo") %>
+      <div class="nav">
+        <nav class="nav-links">
+          <a href="#">GO RAYS!</a>
+          <a href="#">GO BUCS!</a>
+          <a href="#">GO BOLTS!</a>
+        </nav>
+      </div>
+    </header>
+
     <%= yield %>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>

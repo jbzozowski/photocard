@@ -1,0 +1,20 @@
+<section class="steps">
+  <div class="" id="circle">
+    <h1>2</h1>
+  </div>
+  <div class="subhead">
+    <h5>Choose your design</h5>
+  </div>
+</section>
+<section class="design">
+  <div class="team-cards">
+    <%= link_to update_design_cards_path(team: "bucs_a"), method: :post do %>
+      <% image_tag("Bucscard_helmetplaceholder.png", size: "200x350", alt: "Bucscard_A") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to cards_path(team: "bucs_b"), method: :post do %>
+      <% image_tag("Bucscard_patchplaceholder.png", size: "200x350", alt: "Bucscard_B") %>
+    <% end %>
+  </div>
+</section>

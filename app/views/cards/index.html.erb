@@ -1,0 +1,25 @@
+<section class="steps">
+  <div class="" id="circle">
+    <h1>1</h1>
+  </div>
+  <div class="subhead">
+    <h5>Choose your team</h5>
+  </div>
+</section>
+<section class="teams">
+  <div class="team-cards">
+    <%= link_to cards_path(team: "rays"), method: :post do %>
+      <% image_tag("Rayscard_diamond.png", size: "200x350", alt: "Rayscard") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to cards_path(team: "bucs"), method: :post do %>
+      <% image_tag("Bucscard_patch.png", size: "200x350", alt: "Bucscard") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to cards_path(team: "bolts"), method: :post do %>
+      <% image_tag("Lightningcard_bolts.png", size: "200x350", alt: "Rayscard") %>
+    <% end %>
+  </div>
+</section>
