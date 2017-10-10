@@ -1,0 +1,349 @@
+body {
+  font-family: 'Helvetica Nue', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(#ed2024, white);
+}
+
+.logo {
+  text-align: center;
+}
+
+.horizontal-logo {
+  text-align: left;
+  background: linear-gradient(-90deg, #ed2024, white);
+  margin-top: -1em;
+}
+
+.hlogo {
+  margin-left: 2em;
+  padding-bottom: 1em;
+}
+
+img {
+  margin-top: 2em;
+}
+
+.start {
+  text-align: center;
+}
+
+.start button {
+  margin-top: 1em;
+  text-align: center;
+  background-color: #3935a5;
+  color: white;
+  font-size: 24px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.front-card {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-label {
+  margin-top: 1em;
+}
+
+.front-card h3 {
+  font-size: 24px;
+  color: #ed2024;
+  margin-bottom: .5em;
+}
+
+.intro-text {
+  text-align: center;
+  margin: 3em;
+  color: #3935a5;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: -2.5em;
+  margin-right: 1em;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 1em;
+  color: white;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 1em;
+  color: #3935a5;
+}
+
+section {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.steps {
+  margin-top: 2em;
+}
+
+.steps h1 {
+  font-size: 90px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.steps h5 {
+  font-size: 18px;
+  margin-top: 1em;
+  color: #3935a5;
+  text-align: center;
+}
+
+.subhead h5 {
+  font-size: 18px;
+  margin-top: 1em;
+  color: #3935a5;
+  text-align: center;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: #3935a5;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.teams {
+  display: flex;
+}
+
+.design {
+  display: flex;
+}
+
+.team-cards {
+  margin: auto;
+}
+
+.team-cards a img {
+  height: 300px;
+  width: 200px;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.team-cards a img:hover {
+  width: 250px;
+  height: 350px;
+}
+
+.fancy-form input[type=text] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px dotted #3935a5;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  width: 75%;
+  outline: none;
+  text-align: center;
+  margin: auto;
+}
+
+.fancy-form input[type=text]:focus {
+  border-bottom: 2px dotted #3935a5;
+  transition: border 0.5s;
+}
+
+.fancy-form input::placeholder {
+  color: #ddd;
+}
+
+.submit {
+  text-align: center;
+  background-color: #3935a5;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  padding: 12px;
+}
+
+textarea::placeholder {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+}
+
+.preview h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #3935a5;
+  margin: auto;
+  text-align: center;
+}
+
+/*spinner css*/
+.sk-cube-grid {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #ed2024;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+.steps p {
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: #3935a5;
+  filter: brightness(80%);
+  color: white;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.steps h2 {
+  text-align: center;
+  color: #ed2024;
+  font-size: 24px;
+}
+
+.preview-card {
+  margin: auto;
+}
+
+.finish {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.finish button {
+  text-align: center;
+  background-color: #3935a5;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.email {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+div p {
+  font-size: 12px;
+  color: #3935a5;
+  margin-top: .5em;
+}
+
+.thanks h1 {
+  margin-top: .5em;
+}
