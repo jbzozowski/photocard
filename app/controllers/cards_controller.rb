@@ -28,6 +28,15 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
   end
 
+  def update_photo
+    @card = Card.find(params[:id])
+
+  end
+
+  def get_processing
+    
+  end
+
   def new
   end
 

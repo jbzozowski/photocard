@@ -6,10 +6,15 @@ resources :cards do
     post :update_design
 
     get :get_photo
+    post :update_photo
+
+    get :processing
   end
 end
 
   get 'welcome/index'
 
   root 'welcome#index'
+
+mount Shrine::DownloadEndpoint => "/attachments"
 end
