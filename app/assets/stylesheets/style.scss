@@ -163,15 +163,15 @@ section {
 }
 
 .fancy-form input[type=text] {
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: 1px dotted #3935a5;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -moz-transition: none;
-  -webkit-transition: none;
+  // border-top: none;
+  // border-right: none;
+  // border-left: none;
+  // border-bottom: 1px dotted #3935a5;
+  // box-shadow: none;
+  // -webkit-box-shadow: none;
+  // -moz-box-shadow: none;
+  // -moz-transition: none;
+  // -webkit-transition: none;
   width: 75%;
   outline: none;
   text-align: center;
@@ -179,12 +179,36 @@ section {
 }
 
 .fancy-form input[type=text]:focus {
-  border-bottom: 2px dotted #3935a5;
+  // border-bottom: 2px dotted #3935a5;
   transition: border 0.5s;
 }
 
 .fancy-form input::placeholder {
   color: #ddd;
+}
+
+.card-info {
+  border: 1px solid black;
+}
+
+.info {
+}
+
+input.number {
+  width: 40px;
+}
+
+input.name {
+  width: 250px;
+}
+
+input.position {
+  width: 40px;
+}
+
+.info p {
+  font-size: 8px;
+  text-align: center;
 }
 
 .submit {
