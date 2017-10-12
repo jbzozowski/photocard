@@ -12,7 +12,9 @@
               <input autofocus class="form-control" type="text" name="name" id="name" placeholder=" your email">
               <p>Please enter your email to receive a high resolution JPG of your card</p>
           </div>
-          <button type="submit" class="">Send Me My Card</button>
+          <%= link_to thanks_card_path, method: :get do %>
+          <%= submit_tag "Send Me My Card", class: "done" %>
+          <% end %>
       </form>
     </div>
   </div>

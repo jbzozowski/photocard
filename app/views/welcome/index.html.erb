@@ -25,7 +25,9 @@
         <%= link_to image_tag("landingpage_desktop.png", size: "800px", alt: "My Sports Card") %>
       </header>
       <div class="start">
-        <button>Let's Get Started</button>
+        <%= link_to cards_path, method: :get do %>
+        <%= submit_tag "Let's Get Started", class: "done" %>
+        <% end %>
       </div>
       <div class="intro-text">
         <h3>My Sports Card lets you create your own trading card to use as a screen saver, post to Facebook or share with friends. It's FUN, EASY and FREE!</h3>

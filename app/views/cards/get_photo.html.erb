@@ -21,13 +21,13 @@
 
           <div class="form-group info">
             <p>
-              <%= f.number_field :number, class: "form-control number", autofocus: true %>
+              <%= f.number_field :number, class: "form-control number", autofocus: true, maxlength: 2 %>
               <%= f.label :number, "Number" %>
             </p>
 
             <p>
               <%= f.text_field :name, class: "form-control name" %>
-              <%= f.label :name, "Name" %>
+              <%= f.label :name, "Name (required)" %>
             </p>
 
             <p>

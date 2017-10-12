@@ -32,18 +32,22 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
 
     if @card.update(card_params)
-      redirect_to preview_card_path
+      redirect_to processing_card_path
     else
       render :get_photo
     end
   end
 
-  def get_processing
-    redirect_to preview_card_path
+  def processing
+    @card = Card.find(params[:id])
   end
 
-  def get_preview
-    redirect_to deliver_card_path
+  def preview
+    @card = Card.find(params[:id])
+  end
+
+  def thanks
+    render layout: false
   end
 
   def new
