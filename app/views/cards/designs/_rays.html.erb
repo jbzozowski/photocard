@@ -8,12 +8,12 @@
 </section>
 <section class="design">
   <div class="team-cards">
-    <%= link_to cards_path(team: "rays_a"), method: :post do %>
+    <%= link_to update_design_card_path(team: "rays_a"), method: :post do %>
       <% image_tag("Rayscard_ballplaceholder.png", size: "200x350", alt: "Rayscard_A") %>
     <% end %>
   </div>
   <div class="team-cards">
-    <%= link_to cards_path(team: "rays_b"), method: :post do %>
+    <%= link_to update_design_card_path(team: "rays_b"), method: :post do %>
       <% image_tag("Rayscard_diamondplaceholder.png", size: "200x350", alt: "Rayscard_B") %>
     <% end %>
   </div>

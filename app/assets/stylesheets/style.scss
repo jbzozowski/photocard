@@ -238,9 +238,42 @@ input[type="number"] {
   text-align: center;
   background-color: #ed2024;
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 4px;
   border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.submit:hover {
+  text-align: center;
+  background-color: white;
+  color: #ed2024;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ed2024;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.done {
+  text-align: center;
+  background-color: #3935a5;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.done:hover {
+  text-align: center;
+  background-color: white;
+  color: #3935a5;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #3935a5;
   padding: 6px 12px;
   font-weight: bold;
 }

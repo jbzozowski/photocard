@@ -9,6 +9,12 @@ resources :cards do
     post :update_photo
 
     get :processing
+
+    get :preview
+
+    get :deliver
+
+    get :thanks
   end
 end
 
