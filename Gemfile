@@ -37,6 +37,13 @@ gem 'shrine-sql'
 
 gem 'roda'
 
+gem 'pdfkit'
+gem 'imgkit'
+gem 'wkhtmltoimage-binary'
+gem 'wkhtmltopdf-binary'
+gem 'image_processing'
+gem 'mini_magick', '>= 4.3.5'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

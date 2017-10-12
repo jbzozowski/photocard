@@ -57,4 +57,17 @@ class CardsController < ApplicationController
     params.require(:card).permit(:photo, :number, :name, :position, :info)
   end
 
+
+  def pngify
+    @card = Card.find(params[:id])
+
+    respond_to do |format|
+      format.html { render "cards/templates/#{@card.design}", layout: false }
+      format.png do
+        kit = IMGKit.new(pngify_card_url(@card), width: 250)
+
+        send_data kit.to_img(:png), type: "image/png", disposition: 'inline'
+      end
+    end
+  end
 end

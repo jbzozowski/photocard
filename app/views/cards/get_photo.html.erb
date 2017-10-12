@@ -17,23 +17,15 @@
             <%= f.hidden_field :photo, value: @card.cached_photo_data %>
             <%= f.file_field :photo %>
           </div>
-          <h4>Enter your Number, Name and Position</h4>
+          <h4>Enter your Name</h4>
 
           <div class="form-group info">
-            <p>
-              <%= f.number_field :number, class: "form-control number", autofocus: true, maxlength: 2 %>
-              <%= f.label :number, "Number" %>
-            </p>
 
             <p>
               <%= f.text_field :name, class: "form-control name" %>
               <%= f.label :name, "Name (required)" %>
             </p>
 
-            <p>
-              <%= f.text_field :position, class: "form-control position" %>
-              <%= f.label :position, "Position" %>
-            </p>
           </div>
             <h3 class="card-label">Back of Card</h3>
 
@@ -46,7 +38,6 @@
           <div class="">
               <%= f.submit "Submit", class: "submit" %>
           </div>
-
         <% end %>
     </div>
   </div>
