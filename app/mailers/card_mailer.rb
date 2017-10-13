@@ -1,5 +1,5 @@
 class CardMailer < ApplicationMailer
-  default from: ""
+  default from: "cards@photocard.herokuapp.com"
 
   def thank_you_email(card)
     @card = card
