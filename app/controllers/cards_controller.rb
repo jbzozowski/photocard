@@ -48,11 +48,13 @@ class CardsController < ApplicationController
 
   def deliver
     @card = Card.find(params[:id])
-    @user = User.new
   end
 
   def thanks
-    # Send the email here...
+    @card = Card.find(params[:id])
+
+    CardMailer.thank_you_email(@card).deliver_now
+
     render layout: false
   end
 
