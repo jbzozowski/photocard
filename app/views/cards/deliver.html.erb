@@ -5,32 +5,25 @@
 </section>
 <div class="preview-card">
   <div class="finish">
-    <div class="col-lg-12">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
       <%= image_tag(pngify_card_url(@card, format: "png")) %>
+
       <%= form_for @user do |f| %>
-      
-      <div class="form-group email">
-          <p>To save your card, create an account. Your card will be sent upon completion.</p>
+
+      <div class="form-group card-info">
+          <h4>Enter your email to receive your card.</h4>
       </div>
 
-      <div class="form-group email">
-        <%= f.text_field :name, class: "form-control", placeholder: "name" %>
+      <%= f.hidden_field :card_id, value: @card.id %>
+
+      <div class="form-group">
+        <p>
+          <%= f.text_field :name, class: "form-control info", placeholder: "your email" %>
+        </p>
       </div>
 
-      <div class="form-group email">
-          <%= f.text_field :email, class: "form-control", placeholder: "email" %>
-      </div>
-
-      <div class="form-group email">
-          <%= f.text_field :password, class: "form-control", placeholder: "password" %>
-      </div>
-
-      <div class="form-group email">
-          <%= f.text_field :password_confirmation, class: "form-control", placeholder: "password confirmation" %>
-      </div>
-
-      <div class="orm-group email">
-        <%= f.submit "Create Account", class: "done" %>
+      <div class="form-group">
+        <%= f.submit "Send", class: "done" %>
       </div>
     </div>
     <% end %>

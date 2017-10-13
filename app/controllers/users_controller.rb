@@ -1,15 +1,11 @@
 class UsersController < ApplicationController
-  def new
-    @user = User.new
-  end
-
   def create
     user = User.new(user_params)
     if user.save
       session[:user_id] = user.id
-      redirect_to cards_path
+      redirect_to thanks_card_path(params[:user][:card_id])
     else
-      redirect_to signup_path
+      redirect_to deliver_card_path(params[:user][:card_id])
     end
   end
 
