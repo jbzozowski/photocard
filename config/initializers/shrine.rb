@@ -4,6 +4,8 @@ require "shrine/storage/file_system"
 require "shrine/storage/sql"
 require "sequel"
 
+p ENV
+
 DB = Sequel.connect(ENV["DATABASE_URL"] || ActiveRecord::Base.connection_config)
 Shrine.storages = {
  cache: Shrine::Storage::Sql.new(database: DB, table: :files),
