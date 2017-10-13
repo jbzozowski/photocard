@@ -53,7 +53,7 @@ class CardsController < ApplicationController
   def thanks
     @card = Card.find(params[:id])
 
-    CardMailer.thank_you_email(@card).deliver_now
+    CardMailer.thank_you_email(@card).deliver_later
 
     render layout: false
   end
