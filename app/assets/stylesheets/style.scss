@@ -187,6 +187,12 @@ section {
   color: #ddd;
 }
 
+.back::placeholder {
+  color: #ddd;
+  font-size: 14px;
+  text-align: center;
+}
+
 .card-info {
   margin: 2em;
 }
