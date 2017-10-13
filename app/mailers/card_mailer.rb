@@ -3,7 +3,7 @@ class CardMailer < ApplicationMailer
 
   def thank_you_email(card)
     @card = card
-    @url = ""
+    @url = "https://photocard.herokuapp.com"
 
     kit = IMGKit.new(pngify_card_url(@card), width: 250)
 
