@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <%= stylesheet_link_tag 'pngify' %>
+    <title>card</title>
+  </head>
+  <body>
+      <div class="background">
+        <%= image_tag("bucs_a.png") %>
+      </div>
+      <div class=" bucs-info">
+        <%= @card.name %>
+      </div>
+      <div class="image">
+        <%= image_tag(@card.photo_url, size: "200x275") %>
+      </div>
+  </body>
+</html>

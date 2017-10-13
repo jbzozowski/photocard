@@ -6,9 +6,8 @@
 <section class="teams">
   <div class="preview-card">
     <%= image_tag(pngify_card_url(@card, format: "png")) %>
-    <!-- <%= image_tag("Rayscard_ball.png", size: "250x350", alt: "Rayscard_Ball") %> -->
     <div class="finish">
-      <div class="">
+      <div class="middle">
         <%= link_to get_photo_card_path, method: :get do %>
         <%= submit_tag "Edit", class: "submit" %>
         <% end %>

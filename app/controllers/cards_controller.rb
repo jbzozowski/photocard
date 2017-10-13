@@ -46,6 +46,10 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
   end
 
+  def deliver
+    @card = Card.find(params[:id])
+  end
+
   def thanks
     render layout: false
   end
