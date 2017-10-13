@@ -52,6 +52,7 @@ class CardsController < ApplicationController
 
   def thanks
     @card = Card.find(params[:id])
+    @card.update(card_params)
 
     CardMailer.thank_you_email(@card).deliver_later
 
@@ -61,8 +62,9 @@ class CardsController < ApplicationController
   def new
   end
 
+
   def card_params
-    params.require(:card).permit(:photo, :number, :name, :position, :info)
+    params.require(:card).permit(:photo, :number, :name, :position, :info, :email)
   end
 
 
