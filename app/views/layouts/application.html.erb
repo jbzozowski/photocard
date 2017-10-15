@@ -15,12 +15,13 @@
 
   <body>
     <header class = "horizontal-logo">
-      <%= link_to image_tag("myphotocard_horizontal.png", size: "150x50", alt: "My Sports Card", class: "hlogo") %>
+      <%= link_to root_path, method: :get do %>
+      <%= image_tag("myphotocard_horizontal.png", size: "150x50", alt: "My Sports Card", class: "hlogo") %>
+      <% end %>
       <div class="nav">
         <nav class="nav-links">
-          <a href="#">GO RAYS!</a>
-          <a href="#">GO BUCS!</a>
-          <a href="#">GO BOLTS!</a>
+          <%= link_to "Make New Card", cards_path %>
+          <%= link_to "About", pages_about_path %>
         </nav>
       </div>
     </header>

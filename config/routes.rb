@@ -21,6 +21,7 @@ Rails.application.routes.draw do
     end
   end
 
+  get 'pages/about'
 
   get 'welcome/index'
 
