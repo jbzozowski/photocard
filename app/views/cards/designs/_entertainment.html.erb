@@ -8,17 +8,17 @@
 </section>
 <section class="design">
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "rays_a"), method: :post do %>
+    <%= link_to update_design_card_path(@card, design: "potter_blank"), method: :post do %>
       <% image_tag("potter_design.jpg", size: "200x350", alt: "Harry Potter") %>
     <% end %>
   </div>
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "rays_b"), method: :post do %>
+    <%= link_to update_design_card_path(@card, design: "starwars_blank"), method: :post do %>
       <% image_tag("starwars_design.jpg", size: "200x350", alt: "Starwars") %>
     <% end %>
   </div>
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "rays_b"), method: :post do %>
+    <%= link_to update_design_card_path(@card, design: "jurassic_blank"), method: :post do %>
       <% image_tag("jurassic_design.jpg", size: "200x350", alt: "Jurassic Park") %>
     <% end %>
   </div>

@@ -8,13 +8,23 @@
 </section>
 <section class="design">
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "bucs_a"), method: :post do %>
-      <% image_tag("Bucscard_helmetplaceholder.png", size: "200x350", alt: "Bucscard_A") %>
+    <%= link_to update_design_card_path(@card, design: "theocho_blank"), method: :post do %>
+      <% image_tag("theocho_design.jpg", size: "200x350", alt: "The Ocho") %>
     <% end %>
   </div>
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "bucs_b"), method: :post do %>
-      <% image_tag("Bucscard_patchplaceholder.png", size: "200x350", alt: "Bucscard_B") %>
+    <%= link_to update_design_card_path(@card, design: "teamdewey_blank"), method: :post do %>
+      <% image_tag("teamdewey_design.jpg", size: "200x350", alt: "Team Dewey") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "teamstark_blank"), method: :post do %>
+      <% image_tag("teamstark_design.jpg", size: "200x350", alt: "Team Stark") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "teamdperry_blank"), method: :post do %>
+      <% image_tag("teamperry_design.jpg", size: "200x350", alt: "Team Perry") %>
     <% end %>
   </div>
 </section>

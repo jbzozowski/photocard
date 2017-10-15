@@ -8,20 +8,20 @@
 </section>
 <section class="teams">
   <div class="team-cards category">
-    <%= link_to cards_path(team: "rays"), method: :post do %>
-      <% image_tag("hockey.png", size: "200x350", alt: "Rayscard") %>
+    <%= link_to cards_path(team: "sports"), method: :post do %>
+      <% image_tag("hockey.png", size: "200x350", alt: "Sports") %>
     <% end %>
     <h3>Sports</h3>
   </div>
   <div class="team-cards category">
     <%= link_to cards_path(team: "entertainment"), method: :post do %>
-      <% image_tag("entertainment.png", size: "200x350", alt: "Bucscard") %>
+      <% image_tag("entertainment.png", size: "200x350", alt: "Entertainment") %>
     <% end %>
     <h3>Entertainment</h3>
   </div>
   <div class="team-cards category">
-    <%= link_to cards_path(team: "bolts"), method: :post do %>
-      <% image_tag("ironyard.png", size: "200x350", alt: "Rayscard") %>
+    <%= link_to cards_path(team: "ironyard"), method: :post do %>
+      <% image_tag("ironyard.png", size: "200x350", alt: "TIY") %>
     <% end %>
     <h3>Iron Yard</h3>
   </div>
