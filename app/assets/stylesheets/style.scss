@@ -5,11 +5,12 @@ body {
   padding: 0;
 }
 
-.container {
+.wrapper {
   background-image: linear-gradient(#ed2024, white);
 }
 
 .logo {
+  margin-top: -1em;
   text-align: center;
 }
 
@@ -64,7 +65,14 @@ img {
 
 .intro-text h3 {
   text-align: center;
-  margin: 2em 3em;
+  margin: 1em 3em;
+  color: #3935a5;
+  font-size: 18px;
+}
+
+.category h3 {
+  text-align: center;
+  margin: 1em;
   color: #3935a5;
   font-size: 18px;
 }
@@ -436,3 +444,25 @@ div p {
   color: #3935a5;
   text-align: center;
 }
+
+// media queries
+
+// $breakpoint: 500px;
+//
+// @media screen (max-width: $breakpoint) {
+//   .photocard {
+//     image_tag("photocard_300px.png");
+//   }
+// }
+
+// @media screen and (min-width: 487px) and (max-width: 1079px) {
+//   .photocard {
+//     ("photocard_700px.png");
+//   }
+// }
+
+// @media screen and (min-width: 1080px) {
+//   .site-header .site-branding {
+//     background-image: url("../images/logo_big.png") !important;
+//   }
+// }

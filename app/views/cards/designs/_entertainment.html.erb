@@ -9,12 +9,17 @@
 <section class="design">
   <div class="team-cards">
     <%= link_to update_design_card_path(@card, design: "rays_a"), method: :post do %>
-      <% image_tag("Rayscard_ballplaceholder.png", size: "200x350", alt: "Rayscard_A") %>
+      <% image_tag("potter_design.jpg", size: "200x350", alt: "Harry Potter") %>
     <% end %>
   </div>
   <div class="team-cards">
     <%= link_to update_design_card_path(@card, design: "rays_b"), method: :post do %>
-      <% image_tag("Rayscard_diamondplaceholder.png", size: "200x350", alt: "Rayscard_B") %>
+      <% image_tag("starwars_design.jpg", size: "200x350", alt: "Starwars") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "rays_b"), method: :post do %>
+      <% image_tag("jurassic_design.jpg", size: "200x350", alt: "Jurassic Park") %>
     <% end %>
   </div>
 </section>
