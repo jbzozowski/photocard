@@ -5,7 +5,7 @@
 </section>
 <section class="teams">
   <div class="preview-card">
-    <%= image_tag(pngify_card_url(@card, format: "png")) %>
+    <%= image_tag(pngify_card_url(@card, format: "png"), class: "pngify") %>
     <div class="finish">
       <div class="middle">
         <%= link_to get_photo_card_path, method: :get do %>

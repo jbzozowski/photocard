@@ -18,8 +18,8 @@ body {
 // }
 
 .logo {
-  margin-top: 1em;
   text-align: center;
+  padding: 2em;
 }
 
 .horizontal-logo {
@@ -246,6 +246,7 @@ section {
 }
 
 .info {
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -481,6 +482,7 @@ div p {
 
 .thanks h1 {
   margin-top: .5em;
+  font-size: 42px;
 }
 
 .card-info h4 {
@@ -490,23 +492,14 @@ div p {
   text-align: center;
 }
 
-// media queries
-
-@media only screen and (max-width: 320px) {
-  .wrapper {
-    background-image: linear-gradient(#ed2024, white);
-  }
-
-  .landing {
-    background-position: center;
-    background-image: image-url("photocard_300px.png");
-    height: 500px;
-    width: 400px;
-    background-repeat: no-repeat;
-  }
+.pngify {
+  width: 250px;
+  height: 355px;
 }
 
-@media only screen and (max-width: 649px) {
+// media queries
+
+@media only screen and (max-width: 599px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
   }
@@ -519,9 +512,16 @@ div p {
     background-repeat: no-repeat;
     margin-bottom: -2em;
   }
+  .intro-text h3 {
+    text-align: center;
+    margin: 1em 5em;
+    color: #3935a5;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 600px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
   }
@@ -530,7 +530,7 @@ div p {
     background-position: center;
     background-image: image-url("photocard_500px.png");
     height: 525px;
-    width: 700px;
+    width: 600px;
     background-repeat: no-repeat;
     margin-bottom: -3em;
   }
@@ -544,7 +544,7 @@ div p {
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 900px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
   }
@@ -552,7 +552,7 @@ div p {
   .landing {
     background-position: center;
     background-image: image-url("photocard_700px.png");
-    height: 590px;
+    height: 585px;
     width: 700px;
     background-repeat: no-repeat;
     margin-bottom: -4em;
