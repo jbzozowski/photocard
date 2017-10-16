@@ -1,6 +1,7 @@
 class Card < ApplicationRecord
-  validates :email, presence: true
-  validates :email, format: { with: /.*@.*/, message: "has to have an @ sign" }
+
+  validates :email, format: { with: /.*@.*/, message: "has to have an @ sign" }, allow_nil: true
 
   include ImageUploader[:photo]
+
 end

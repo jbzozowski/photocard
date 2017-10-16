@@ -5,18 +5,6 @@ body {
   padding: 0;
 }
 
-// .wrapper {
-//   background-image: linear-gradient(#ed2024, white);
-// }
-//
-// .landing {
-//   background-position: center;
-//   background-image: image-url("photocard_300px.png");
-//   height: 500px;
-//   width: 400px;
-//   background-repeat: no-repeat;
-// }
-
 .logo {
   text-align: center;
   padding: 2em;
@@ -138,9 +126,9 @@ section {
 .subhead h5 {
   font-size: 18px;
   margin-top: 1em;
+  margin-bottom: -1em;
   color: #3935a5;
   text-align: center;
-  margin-bottom: -1em;
 }
 
 .about h5 {
@@ -348,7 +336,12 @@ input[type="number"] {
   margin: auto;
   text-align: center;
   margin-bottom: -.75em;
-  margin-top: -.5em;
+  margin-top: .5em;
+}
+
+#notice {
+  font-size: 14px;
+  color: #ed2024;
 }
 
 /*spinner css*/
@@ -484,8 +477,17 @@ div p {
 }
 
 .thanks h1 {
-  margin-top: .5em;
-  font-size: 42px;
+  margin-top: 0em;
+  font-size: 54px;
+  color: #3935a5;
+}
+
+.thanks h5 {
+  font-size: 18px;
+  margin-top: 0em;
+  margin-bottom: -2em;
+  color: #3935a5;
+  text-align: center;
 }
 
 .card-info h4 {
@@ -516,6 +518,16 @@ div p {
     margin-bottom: -2em;
   }
 
+  .preview h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3935a5;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -.75em;
+    margin-top: .5em;
+  }
+
   .intro-text h3 {
     text-align: center;
     margin: 1em 5em;
@@ -531,6 +543,30 @@ div p {
   .design {
     display: block;
     text-align: center;
+  }
+
+  .thanks h1 {
+    margin-top: 0em;
+    font-size: 54px;
+    color: #3935a5;
+  }
+
+  .thanks h5 {
+    font-size: 18px;
+    margin-top: 0em;
+    margin-bottom: -2em;
+    color: #3935a5;
+    text-align: center;
+  }
+
+  .preview h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #3935a5;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -.75em;
+    margin-top: -.5em;
   }
 }
 

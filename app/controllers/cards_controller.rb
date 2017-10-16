@@ -52,9 +52,13 @@ class CardsController < ApplicationController
 
   def thanks
     @card = Card.find(params[:id])
-    @card.update(card_params)
-
-    CardMailer.thank_you_email(@card).deliver_later
+    if @card.update(card_params)
+      CardMailer.thank_you_email(@card).deliver_later
+    else
+      flash[:notice] = "You must have a valid email"
+      redirect_to deliver_card_path(@card)
+      return
+    end
 
     render layout: false
   end
