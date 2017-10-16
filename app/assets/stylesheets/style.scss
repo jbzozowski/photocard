@@ -87,7 +87,8 @@ img {
 .nav-links a {
   text-decoration: none;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin-right: 1em;
   color: white;
 }
@@ -95,7 +96,8 @@ img {
 .nav-links a:hover {
   text-decoration: none;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin-right: 1em;
   color: #3935a5;
 }
@@ -568,6 +570,36 @@ div p {
     text-align: center;
     margin-bottom: -.75em;
     margin-top: -.5em;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: -4em;
+    margin-right: 1em;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 1em;
+    color: white;
+  }
+
+  .nav-links a:hover {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 1em;
+    color: #3935a5;
   }
 }
 
