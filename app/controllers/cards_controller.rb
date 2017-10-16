@@ -55,6 +55,8 @@ class CardsController < ApplicationController
     @card.update(card_params)
 
     CardMailer.thank_you_email(@card).deliver_later
+    validates :email, presence: true
+    validates :email, format: { with: /.*@.*/, message: "has to have an @ sign" }
 
     render layout: false
   end
