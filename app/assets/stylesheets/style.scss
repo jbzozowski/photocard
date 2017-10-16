@@ -499,6 +499,38 @@ div p {
 
 // media queries
 
+@media only screen and (min-width: 375px) and (max-width: 599px) {
+  .wrapper {
+    background-image: linear-gradient(#ed2024, white);
+  }
+
+  .landing {
+    background-position: center;
+    background-image: image-url("photocard_300px.png");
+    height: 525px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: -2em;
+  }
+
+  .intro-text h3 {
+    text-align: center;
+    margin: 1em 5em;
+    color: #3935a5;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .teams {
+    display: block;
+    text-align: center;
+  }
+
+  .design {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 599px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
