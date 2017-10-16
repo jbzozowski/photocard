@@ -55,7 +55,7 @@ class CardsController < ApplicationController
     if @card.update(card_params)
       CardMailer.thank_you_email(@card).deliver_later
     else
-      flash[:notice] = "You must have a valid email"
+      flash[:notice] = "You must enter a valid email"
       redirect_to deliver_card_path(@card)
       return
     end
