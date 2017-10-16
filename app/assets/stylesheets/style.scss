@@ -506,7 +506,7 @@ div p {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 649px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
   }
@@ -514,14 +514,37 @@ div p {
   .landing {
     background-position: center;
     background-image: url("photocard_300px.png");
-    height: 500px;
+    height: 525px;
     width: 400px;
     background-repeat: no-repeat;
-    margin-bottom: -1em;
+    margin-bottom: -2em;
   }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 650px) {
+  .wrapper {
+    background-image: linear-gradient(#ed2024, white);
+  }
+
+  .landing {
+    background-position: center;
+    background-image: url("photocard_500px.png");
+    height: 525px;
+    width: 700px;
+    background-repeat: no-repeat;
+    margin-bottom: -3em;
+  }
+
+  .intro-text h3 {
+    text-align: center;
+    margin: 1em 7em;
+    color: #3935a5;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
   .wrapper {
     background-image: linear-gradient(#ed2024, white);
   }
@@ -529,10 +552,10 @@ div p {
   .landing {
     background-position: center;
     background-image: url("photocard_700px.png");
-    height: 575px;
+    height: 590px;
     width: 700px;
     background-repeat: no-repeat;
-    margin-bottom: -3em;
+    margin-bottom: -4em;
   }
 
   .intro-text h3 {
