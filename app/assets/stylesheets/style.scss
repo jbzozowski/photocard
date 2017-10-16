@@ -135,20 +135,29 @@ section {
 }
 
 .about h5 {
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 2em;
   margin-bottom: 1.5em;
-  color: #3935a5;
+  color: #ed2024;
   text-align: center;
 }
 
+.about h3 {
+  font-size: 14px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: .5em;
+  color: #3935a5;
+  text-align: left;
+  width: 300px;
+}
+
 .about p {
-  color: black;
+  color: #666666;
   font-size: 14px;
   margin: auto;
   text-align: left;
   width: 300px;
-  margin-top: 1em;
 }
 
 #circle {
