@@ -512,12 +512,22 @@ div p {
     background-repeat: no-repeat;
     margin-bottom: -2em;
   }
+
   .intro-text h3 {
     text-align: center;
     margin: 1em 5em;
     color: #3935a5;
     font-size: 14px;
     line-height: 18px;
+  }
+  .teams {
+    display: block;
+    text-align: center;
+  }
+
+  .design {
+    display: block;
+    text-align: center;
   }
 }
 
