@@ -20,19 +20,18 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header class = "logo">
-        <%= link_to image_tag("photocard_300px.png", size: "", alt: "My Photo Card") %>
-      </header>
+    <section class="wrapper">
+      <div class = "landing container-fluid">
+      </div>
+    </section>
       <div class="start">
         <%= link_to cards_path, method: :get do %>
         <%= submit_tag "Start Here", class: "done" %>
         <% end %>
       </div>
       <div class="intro-text">
-        <h3>My Photo Card lets you create your own trading card to use as a screen saver, post to Facebook or share with friends. It's FUN, EASY and FREE!</h3>
+        <h3>MyPhotoCard lets you create your own trading card to use as a screen saver, post to Facebook or share with friends.<br> It's FUN, EASY and FREE!</h3>
       </div>
-    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

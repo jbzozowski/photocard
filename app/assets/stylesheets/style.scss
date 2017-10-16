@@ -5,9 +5,17 @@ body {
   padding: 0;
 }
 
-.wrapper {
-  background-image: linear-gradient(#ed2024, white);
-}
+// .wrapper {
+//   background-image: linear-gradient(#ed2024, white);
+// }
+//
+// .landing {
+//   background-position: center;
+//   background-image: url("photocard_300px.png");
+//   height: 500px;
+//   width: 400px;
+//   background-repeat: no-repeat;
+// }
 
 .logo {
   margin-top: 1em;
@@ -484,22 +492,54 @@ div p {
 
 // media queries
 
-// $breakpoint: 500px;
-//
-// @media screen (max-width: $breakpoint) {
-//   .photocard {
-//     image_tag("photocard_300px.png");
-//   }
-// }
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    background-image: linear-gradient(#ed2024, white);
+  }
 
-// @media screen and (min-width: 487px) and (max-width: 1079px) {
-//   .photocard {
-//     ("photocard_700px.png");
-//   }
-// }
+  .landing {
+    background-position: center;
+    background-image: url("photocard_300px.png");
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+  }
+}
 
-// @media screen and (min-width: 1080px) {
-//   .site-header .site-branding {
-//     background-image: url("../images/logo_big.png") !important;
-//   }
-// }
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    background-image: linear-gradient(#ed2024, white);
+  }
+
+  .landing {
+    background-position: center;
+    background-image: url("photocard_300px.png");
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: -1em;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .wrapper {
+    background-image: linear-gradient(#ed2024, white);
+  }
+
+  .landing {
+    background-position: center;
+    background-image: url("photocard_700px.png");
+    height: 575px;
+    width: 700px;
+    background-repeat: no-repeat;
+    margin-bottom: -3em;
+  }
+
+  .intro-text h3 {
+    text-align: center;
+    margin: 1em 7em;
+    color: #3935a5;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
