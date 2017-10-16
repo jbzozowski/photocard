@@ -518,11 +518,12 @@ div p {
   }
 
   .landing {
+    background-position: center;
     background-image: image-url("photocard_300px.png");
     height: 400px;
     width: 400px;
     background-repeat: no-repeat;
-    margin-bottom: -3em;
+    margin-bottom: -4em;
   }
 
   .preview h1 {
@@ -537,7 +538,7 @@ div p {
 
   .intro-text h3 {
     text-align: center;
-    margin: 1em 5em;
+    margin: 1em 3em;
     color: #3935a5;
     font-size: 14px;
     line-height: 18px;
@@ -618,7 +619,7 @@ div p {
     height: 525px;
     width: 400px;
     background-repeat: no-repeat;
-    margin-bottom: -2em;
+    margin-bottom: -3em;
   }
 
   .intro-text h3 {
@@ -650,7 +651,7 @@ div p {
     height: 525px;
     width: 600px;
     background-repeat: no-repeat;
-    margin-bottom: -3em;
+    margin-bottom: -5em;
   }
 
   .intro-text h3 {
