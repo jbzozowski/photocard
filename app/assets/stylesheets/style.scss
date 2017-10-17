@@ -521,9 +521,9 @@ div p {
 
 // media queries
 
-@media only screen and (min-width: 375px) and (max-width: 598px) {
+@media only screen and (min-width: 350px) and (max-width: 598px) {
   .wrapper {
-    background-image: linear-gradient(#fcd9d9, white);
+    background-image: linear-gradient(#f7e6e8, white);
   }
 
   .landing {
@@ -619,7 +619,7 @@ div p {
 
 @media only screen and (max-width: 599px) {
   .wrapper {
-    background-image: linear-gradient(#fcd9d9, white);
+    background-image: linear-gradient(#f7e6e8, white);
   }
 
   .landing {
@@ -651,7 +651,7 @@ div p {
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    background-image: linear-gradient(#fcd9d9, white);
+    background-image: linear-gradient(#f7e6e8, white);
   }
 
   .landing {
@@ -661,6 +661,7 @@ div p {
     width: 600px;
     background-repeat: no-repeat;
     margin-bottom: -5em;
+    margin-top: -.5em;
   }
 
   .intro-text h3 {
@@ -674,7 +675,7 @@ div p {
 
 @media only screen and (min-width: 900px) {
   .wrapper {
-    background-image: linear-gradient(#fcd9d9, white);
+    background-image: linear-gradient(#f7e6e8, white);
   }
 
   .landing {
