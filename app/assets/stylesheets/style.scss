@@ -523,7 +523,7 @@ div p {
 
 // media queries
 
-@media only screen and (min-width: 375px) and (max-width: 789px) {
+@media only screen and (min-width: 350px) and (max-width: 789px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -534,7 +534,7 @@ div p {
     height: 300px;
     width: 300px;
     background-repeat: no-repeat;
-    margin-bottom: -4em;
+    margin-bottom: -2em;
   }
 
   .preview h1 {
