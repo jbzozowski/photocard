@@ -523,7 +523,7 @@ div p {
 
 // media queries
 
-@media only screen and (min-width: 375px) and (max-width: 598px) {
+@media only screen and (min-width: 375px) and (max-width: 789px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -535,7 +535,6 @@ div p {
     width: 300px;
     background-repeat: no-repeat;
     margin-bottom: -4em;
-    margin-top: -1em;
   }
 
   .preview h1 {
@@ -625,7 +624,7 @@ div p {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 790px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -657,7 +656,7 @@ div p {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 790px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -681,7 +680,7 @@ div p {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
