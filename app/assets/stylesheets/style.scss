@@ -510,18 +510,27 @@ div p {
   height: 355px;
 }
 
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: none;
+  color: #ed2024;
+}
+
 // media queries
 
-@media only screen and (min-width: 375px) and (max-width: 800px) {
+@media only screen and (min-width: 375px) and (max-width: 598px) {
   .wrapper {
-    background-image: linear-gradient(#ed2024, white);
+    background-image: linear-gradient(#fcd9d9, white);
   }
 
   .landing {
     background-position: center;
-    background-image: image-url("photocard_300px.png");
-    height: 400px;
-    width: 400px;
+    background-image: image-url("photocard_mobile.png");
+    height: 300px;
+    width: 300px;
     background-repeat: no-repeat;
     margin-bottom: -4em;
   }
@@ -610,7 +619,7 @@ div p {
 
 @media only screen and (max-width: 599px) {
   .wrapper {
-    background-image: linear-gradient(#ed2024, white);
+    background-image: linear-gradient(#fcd9d9, white);
   }
 
   .landing {
@@ -642,7 +651,7 @@ div p {
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    background-image: linear-gradient(#ed2024, white);
+    background-image: linear-gradient(#fcd9d9, white);
   }
 
   .landing {
@@ -665,7 +674,7 @@ div p {
 
 @media only screen and (min-width: 900px) {
   .wrapper {
-    background-image: linear-gradient(#ed2024, white);
+    background-image: linear-gradient(#fcd9d9, white);
   }
 
   .landing {
