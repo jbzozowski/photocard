@@ -531,11 +531,12 @@ div p {
   .landing {
     background-position: center;
     background-image: image-url("photocard_mobile.png");
-    height: 250px;
+    height: 300px;
     width: 300px;
     background-repeat: no-repeat;
     margin-bottom: -4em;
     margin-top: -1em;
+    margin-left: -1em;
   }
 
   .preview h1 {
@@ -550,10 +551,10 @@ div p {
 
   .intro-text h3 {
     text-align: center;
-    margin: 1em 3em;
+    margin: 1em 1em;
     color: #3935a5;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
   .teams {
     display: block;
