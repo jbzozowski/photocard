@@ -523,10 +523,7 @@ div p {
 
 // media queries
 
-@media (max-width: 789px) {
-  body {
-    background-color: red;
-  }
+@media (max-width: 450px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -534,7 +531,7 @@ div p {
   .landing {
     background-position: center;
     background-image: image-url("photocard_mobile.png");
-    height: 300px;
+    height: 450px;
     width: 300px;
     background-repeat: no-repeat;
     margin-bottom: -2em;
@@ -552,7 +549,7 @@ div p {
 
   .intro-text h3 {
     text-align: center;
-    margin: 1em 1em;
+    margin: 1em 2em;
     color: #3935a5;
     font-size: 14px;
     line-height: 16px;
@@ -627,7 +624,7 @@ div p {
   }
 }
 
-@media only screen and (min-width: 790px) {
+@media only screen and (max-width: 699px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -659,7 +656,7 @@ div p {
   }
 }
 
-@media only screen and (min-width: 790px) {
+@media only screen and (min-width: 700px) {
   .wrapper {
     background-image: linear-gradient(#f7e6e8, white);
   }
@@ -672,29 +669,6 @@ div p {
     background-repeat: no-repeat;
     margin-bottom: -5em;
     margin-top: -.5em;
-  }
-
-  .intro-text h3 {
-    text-align: center;
-    margin: 1em 7em;
-    color: #3935a5;
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-  .wrapper {
-    background-image: linear-gradient(#f7e6e8, white);
-  }
-
-  .landing {
-    background-position: center;
-    background-image: image-url("photocard_700px.png");
-    height: 585px;
-    width: 700px;
-    background-repeat: no-repeat;
-    margin-bottom: -4em;
   }
 
   .intro-text h3 {
