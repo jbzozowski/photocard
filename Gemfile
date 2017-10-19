@@ -46,6 +46,8 @@ gem 'wkhtmltopdf-binary'
 gem 'image_processing'
 gem 'mini_magick', '>= 4.3.5'
 
+gem 'awesome_print'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
