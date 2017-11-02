@@ -11,14 +11,21 @@ body {
 }
 
 .horizontal-logo {
-  text-align: left;
-  background: linear-gradient(-90deg, #ed2024, white);
-  margin-top: -1em;
+  background-color: #ed2024;
+}
+
+.topbar {
+  margin-bottom: 6em;
 }
 
 .hlogo {
-  margin-left: 2em;
+  margin-left: 1em;
   padding-bottom: 1em;
+  margin-top: .5em;
+}
+
+.icon-bar {
+  border: 1px solid white;
 }
 
 img {
@@ -73,35 +80,25 @@ img {
   font-size: 18px;
 }
 
-.nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-links {
-  display: flex;
-  margin-top: -2.5em;
-  margin-right: 1em;
+ul.navbar-nav li a:hover {
+  background: none;
 }
 
 .nav-links a {
   text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
   letter-spacing: 1px;
-  margin-right: 1em;
+  margin-left: 1em;
+
   color: white;
 }
 
 .nav-links a:hover {
   text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
   letter-spacing: 1px;
-  margin-right: 1em;
-  color: #3935a5;
-  border-right: 1px solid #ddd;
-  padding-right: 3px;
+  margin-left: 1em;
+  color: #f9e234;
 }
 
 section {
@@ -586,41 +583,6 @@ div p {
     text-align: center;
     margin-bottom: -.75em;
     margin-top: -.5em;
-  }
-
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    margin-top: -4em;
-    margin-right: 1em;
-  }
-
-  .nav-links a {
-    text-decoration: none;
-    text-align: right;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-right: 1em;
-    color: white;
-    line-height: 16px;
-  }
-
-  .nav-links a:hover {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-right: 1em;
-    line-height: 16px;
-    color: #3935a5;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding-right: 3px;
   }
 }
 
