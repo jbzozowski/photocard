@@ -28,6 +28,10 @@ body {
   border: 1px solid white;
 }
 
+button.navbar-toggle.collapsed {
+  border: 1px solid white;
+}
+
 img {
   margin-top: 2em;
 }
@@ -81,24 +85,21 @@ img {
 }
 
 ul.navbar-nav li a:hover {
-  background: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-left: 1em;
-
-  color: white;
+  background: white;
 }
 
 .nav-links a:hover {
-  text-decoration: none;
   font-size: 14px;
   letter-spacing: 1px;
   margin-left: 1em;
-  color: #f9e234;
+  color: #ed2024;
+}
+
+.nav-links a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 1em;
+  color: white;
 }
 
 section {
