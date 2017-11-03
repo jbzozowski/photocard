@@ -24,10 +24,12 @@
         <div class="horizontal-logo">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only box">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+                <div class="to-close hamb">
+                  <div class="x">
+                    <input type="checkbox" id="menu-x" />
+                    <label for="menu-x"><span></span></label>
+                  </div>
+                </div>
             </button>
             <%= link_to root_path, method: :get do %>
             <%= image_tag("myphotocard_horizontal.png", size: "150x50", alt: "My Sports Card", class: "hlogo") %>

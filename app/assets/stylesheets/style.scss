@@ -28,9 +28,9 @@ body {
   border: 1px solid white;
 }
 
-button.navbar-toggle.collapsed {
-  border: 1px solid white;
-}
+// button.navbar-toggle.collapsed {
+//   border: 1px solid white;
+// }
 
 img {
   margin-top: 2em;
@@ -519,6 +519,135 @@ div p {
   color: #ed2024;
 }
 
+.hamb {
+  margin-top: -.15em;
+  margin-bottom: -.25em;
+}
+
+// navbar toggle animation
+$size: 3rem;
+$thickness: .25rem;
+$gap: .45rem;
+$color: white;
+$roundCap: true;
+
+*,
+*:before,
+*:after {
+  transition: all 300ms ease;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: block;
+  width: $size;
+  height: ($thickness * 3 + $gap * 2);
+  position: relative;
+
+  span {
+    position: relative;
+    top: $thickness + $gap;
+
+    &,
+    &:before,
+    &:after {
+      display: block;
+      background: $color;
+      width: $size;
+      height: $thickness;
+      @if $roundCap {
+        border-radius: $thickness / 2;
+      }
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+    }
+
+    &:before {
+      bottom: $gap + $thickness;
+    }
+
+    &:after {
+      top: $gap + $thickness;
+    }
+
+    .left &,
+    .top &,
+    .bottom & {
+      &:before {
+        transform-origin: top left;
+      }
+
+      &:after {
+        transform-origin: bottom left;
+      }
+    }
+
+    .right & {
+      &:before {
+        transform-origin: top right;
+        right: 0;
+      }
+
+      &:after {
+        transform-origin: bottom right;
+        right: 0;
+      }
+    }
+
+    :checked ~ & {
+      .x & {
+        width: 0;
+        &:before {
+          transform: rotate(45deg);
+          bottom: 0;
+        }
+        &:after {
+          transform: rotate(-45deg);
+          top: 0;
+        }
+      }
+
+      .x1 & {
+        background: none;
+        &:before {
+          animation: x1Before 500ms forwards;
+        }
+        &:after {
+          animation: x1After 500ms forwards;
+        }
+      }
+
+      @keyframes x1Before {
+        50% {
+          bottom: 0;
+          transform: rotate(0deg);
+        }
+        100% {
+          bottom: 0;
+          transform: rotate(45deg);
+        }
+      }
+
+      @keyframes x1After {
+        50% {
+          top: 0;
+          transform: rotate(0deg);
+        }
+        100% {
+          top: 0;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
 // media queries
 
 @media (max-width: 450px) {
