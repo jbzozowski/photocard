@@ -3,26 +3,33 @@
     <h1>1</h1>
   </div>
   <div class="subhead">
-    <h5>Choose one of the three categories below</h5>
+    <h5>Choose your team</h5>
   </div>
 </section>
 <section class="teams">
   <div class="team-cards category">
-    <%= link_to cards_path(team: "sports"), method: :post do %>
-      <% image_tag("baseball.png", size: "200x350", alt: "Sports") %>
+    <%= link_to cards_path(team: "phillies"), method: :post do %>
+      <% image_tag("phillycards/philliespatchmock.png", size: "200x350", alt: "Phillies") %>
     <% end %>
-    <h3>Sports</h3>
+    <h3>Phillies</h3>
   </div>
   <div class="team-cards category">
-    <%= link_to cards_path(team: "entertainment"), method: :post do %>
-      <% image_tag("entertainment.png", size: "200x350", alt: "Entertainment") %>
+    <%= link_to cards_path(team: "eagles"), method: :post do %>
+      <% image_tag("phillycards/eaglesmock.png", size: "200x350", alt: "Eagles") %>
     <% end %>
-    <h3>Entertainment</h3>
+    <h3>Eagles</h3>
   </div>
   <div class="team-cards category">
-    <%= link_to cards_path(team: "ironyard"), method: :post do %>
-      <% image_tag("ironyard.png", size: "200x350", alt: "TIY") %>
+    <%= link_to cards_path(team: "flyers"), method: :post do %>
+      <% image_tag("phillycards/flyersmock.png", size: "200x350", alt: "Flyers") %>
     <% end %>
-    <h3>The Iron Yard</h3>
+    <h3>Flyers</h3>
+  </div>
+    <div class="team-cards category">
+      <%= link_to cards_path(team: "sixers"), method: :post do %>
+        <% image_tag("phillycards/sixersmock.png", size: "200x350", alt: "Sixers") %>
+      <% end %>
+      <h3>Sixers</h3>
+    </div>
   </div>
 </section>

@@ -1,0 +1,20 @@
+<section class="steps">
+  <div class="" id="circle">
+    <h1>2</h1>
+  </div>
+  <div class="subhead">
+    <h5>Choose your design</h5>
+  </div>
+</section>
+<section class="design">
+  <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "phillycards/eagles_a.png"), method: :post do %>
+      <% image_tag("phillycards/eaglestemplate.png", size: "200x350", alt: "Footballs") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "phillycards/eagles_b.png"), method: :post do %>
+      <% image_tag("phillycards/eaglestemplate2.png", size: "200x350", alt: "Stadium") %>
+    <% end %>
+  </div>
+</section>
