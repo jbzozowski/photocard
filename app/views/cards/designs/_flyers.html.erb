@@ -8,12 +8,12 @@
 </section>
 <section class="design">
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "phillycards/flyers_b.png"), method: :post do %>
+    <%= link_to update_design_card_path(@card, design: "flyers_b"), method: :post do %>
       <% image_tag("phillycards/flyerstemplate.png", size: "200x350", alt: "Rink") %>
     <% end %>
   </div>
   <div class="team-cards">
-    <%= link_to update_design_card_path(@card, design: "phillycards/flyers_a.png"), method: :post do %>
+    <%= link_to update_design_card_path(@card, design: "flyers_a"), method: :post do %>
       <% image_tag("phillycards/flyerstemplate2.png", size: "200x350", alt: "Pucks") %>
     <% end %>
   </div>
