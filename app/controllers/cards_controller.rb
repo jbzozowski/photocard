@@ -78,7 +78,7 @@ class CardsController < ApplicationController
     respond_to do |format|
       format.html { render "cards/templates/#{@card.design}", layout: false }
       format.png do
-        kit = IMGKit.new(pngify_card_url(@card), width: 0, height: 375)
+        kit = IMGKit.new(pngify_card_url(@card), quality: 100, width: 0, height: 1115)
 
         send_data kit.to_img(:png), type: "image/png", disposition: 'inline'
       end
