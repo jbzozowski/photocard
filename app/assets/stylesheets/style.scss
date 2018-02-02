@@ -417,13 +417,14 @@ input[type="number"] {
 }
 
 .steps p {
+  font-size: 14px;
   text-align: center;
   margin-left: 3em;
   margin-right: 3em;
   background-color: #3935a5;
   filter: brightness(80%);
   color: white;
-  padding: 2em;
+  padding: 1em;
   border-radius: 8px;
 }
 
