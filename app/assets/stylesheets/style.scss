@@ -127,7 +127,7 @@ section {
 .subhead h5 {
   font-size: 18px;
   margin-top: 1em;
-  margin-bottom: -1em;
+  margin-bottom: -.5em;
   color: #3935a5;
   text-align: center;
 }
@@ -169,6 +169,7 @@ section {
   background: #3935a5;
   border-radius: 50px;
   margin: auto;
+  margin-bottom: 2em;
 }
 
 .teams {
@@ -280,11 +281,11 @@ input[type="number"] {
 
 .submit {
   text-align: center;
-  background-color: #ed2024;
+  background-color: red;
   color: white;
   font-size: 14px;
   border-radius: 4px;
-  border: 1px solid #ed2024;
+  border: 1px solid red;
   padding: 6px 12px;
   font-weight: bold;
 }
@@ -292,10 +293,10 @@ input[type="number"] {
 .submit:hover {
   text-align: center;
   background-color: white;
-  color: #ed2024;
+  color: red;
   font-size: 14px;
   border-radius: 4px;
-  border: 1px solid #ed2024;
+  border: 1px solid red;
   padding: 6px 12px;
   font-weight: bold;
 }
@@ -306,7 +307,7 @@ input[type="number"] {
   color: white;
   font-size: 14px;
   border-radius: 4px;
-  border: 1px solid #3935a5;
+  border: 1px solid green;
   padding: 6px 12px;
   font-weight: bold;
 }
@@ -481,7 +482,7 @@ div .send p {
 }
 
 .thanks h1 {
-  margin-top: 0em;
+  margin-top: .5em;
   font-size: 54px;
   color: #3935a5;
 }
@@ -504,6 +505,7 @@ div .send p {
 .pngify {
   width: 250px;
   height: 355px;
+  margin-top: 3em;
 }
 
 .about a {
@@ -712,7 +714,7 @@ label {
   }
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 774px) {
   .wrapper {
   }
 
@@ -746,7 +748,7 @@ label {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 775px) {
   .wrapper {
   }
 
@@ -759,7 +761,7 @@ label {
     background-repeat: no-repeat;
     margin-bottom: -5em;
     margin-top: -.5em;
-    transition: 300ms ease;
+    transition: 600ms ease;
   }
 
   .intro-text h3 {
@@ -771,7 +773,7 @@ label {
   }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
   .wrapper {
   }
 
@@ -780,11 +782,11 @@ label {
     background-image: image-url("phillycards/mysportscard1200.png");
     background-size: contain;
     height: 500px;
-    width: 1050px;
+    width: 1000px;
     background-repeat: no-repeat;
     margin-bottom: -5em;
     margin-top: -.5em;
-    transition: 300ms ease;
+    transition: 600ms ease;
   }
 
   .intro-text h3 {
