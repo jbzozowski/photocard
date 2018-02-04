@@ -6,7 +6,7 @@
     <h5>Choose your team</h5>
   </div>
 </section>
-<section class="teams">
+<section class="teams switch">
   <div class="team-cards category">
     <%= link_to cards_path(team: "phillies"), method: :post do %>
       <% image_tag("phillycards/philliespatchmock.png", size: "200x350", alt: "Phillies") %>
