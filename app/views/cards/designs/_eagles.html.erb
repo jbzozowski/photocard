@@ -13,6 +13,11 @@
     <% end %>
   </div>
   <div class="team-cards">
+    <%= link_to update_design_card_path(@card, design: "eagles_c"), method: :post do %>
+      <% image_tag("phillycards/championstemplate.png", size: "250 x 350", alt: "Champions") %>
+    <% end %>
+  </div>
+  <div class="team-cards">
     <%= link_to update_design_card_path(@card, design: "eagles_b"), method: :post do %>
       <% image_tag("phillycards/eaglestemplate2.png", size: "250 x 350", alt: "Stadium") %>
     <% end %>
