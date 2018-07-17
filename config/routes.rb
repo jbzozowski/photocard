@@ -27,5 +27,5 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  mount Shrine::DownloadEndpoint => "/attachments"
+  mount Shrine.download_endpoint => "/attachments"
 end
