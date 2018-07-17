@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 #Upload Image support
-gem 'shrine', '~>2.7'
+gem 'shrine', '~>2.11.0'
 
 gem 'shrine-sql'
 
@@ -43,7 +43,7 @@ gem 'pdfkit'
 gem 'imgkit'
 gem 'wkhtmltoimage-binary'
 gem 'wkhtmltopdf-binary'
-gem 'image_processing'
+gem 'image_processing', '~>1.0'
 gem 'mini_magick', '>= 4.3.5'
 
 gem 'awesome_print'

@@ -1,10 +1,19 @@
 require "image_processing/mini_magick"
 
 class ImageUploader < Shrine
-  include ImageProcessing::MiniMagick
   plugin :processing
+  plugin :versions
+  plugin :delete_raw
 
   process(:store) do |io, context|
-    resize_to_fill!(io.download, 200, 275) { |cmd| cmd.auto_orient }
+    versions = { original: io }
+
+    io.download do |original|
+      pipeline = ImageProcessing::MiniMagick.source(original)
+
+      versions[:small] = pipeline.resize_to_fill!(610,865)
+    end
+
+    versions
   end
 end

@@ -13,7 +13,7 @@
         <%= @card.name %>
       </div>
       <div class="image">
-        <%= image_tag(@card.photo_url, size: "610x865") %>
+        <%= image_tag(@card.photo_url(:small)) %>
       </div>
   </body>
 </html>
