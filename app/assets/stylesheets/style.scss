@@ -776,10 +776,25 @@ label {
     display: block;
     text-align: center;
   }
+  .visible h6 {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 775px) {
   .wrapper {
+  }
+
+  .visible {
+    visibility: hidden;
+  }
+
+  .visible h6 {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
   }
 
   .landing {
