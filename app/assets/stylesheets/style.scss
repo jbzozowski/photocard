@@ -366,15 +366,15 @@ input[type="number"] {
 
 /*spinner css*/
 .sk-cube-grid {
-  width: 100px;
-  height: 100px;
-  margin: 100px auto;
+  width: 75px;
+  height: 75px;
+  margin: 60px auto;
 }
 
 .sk-cube-grid .sk-cube {
-  width: 33%;
-  height: 33%;
-  background-color: #ed2024;
+  width: 30%;
+  height: 30%;
+  background-color: orange;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
