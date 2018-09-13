@@ -15,7 +15,7 @@
         <%= form_for @card do |f| %>
           <div class="form-group info">
             <%= f.hidden_field :photo, value: @card.cached_photo_data %>
-            <%= f.file_field :photo %>
+            <%= f.file_field :photo, required: true %>
           </div>
           <h4>Enter your Name</h4>
 
