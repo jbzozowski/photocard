@@ -14,8 +14,8 @@ class ImageUploader < Shrine
     Attacher.validate do
       validate_min_size 1, message: "must not be empty"
       validate_max_size 5*1024*1024, message: "is too large (max is 5 MB)"
-      validate_mime_type_inclusion %w[image/jpeg image/png image/tiff]
-      validate_extension_inclusion %w[jpg jpeg png tiff tif]
+      validate_mime_type_inclusion  %w[image/jpeg image/png image/tiff]
+      validate_extension_inclusion  %w[jpg jpeg png tiff tif]
     end
 
     process(:store) do |io, context|

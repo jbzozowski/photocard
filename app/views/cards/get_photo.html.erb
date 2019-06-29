@@ -8,15 +8,28 @@
 </section>
   <div class="front-card card-info">
     <div class="col-lg-12">
-      <h3 class="">Front of Card</h3>
+      <h3>Front of Card</h3>
 
         <h4>Choose a Photo for your card</h4>
 
+
         <%= form_for @card do |f| %>
-          <div class="form-group info">
-            <%= f.hidden_field :photo, value: @card.cached_photo_data %>
-            <%= f.file_field :photo, required: true %>
-          </div>
+          <% if @card.errors.any? %>
+            <div class="error-card" id="error_explanation">
+                  <p>
+                  <% @card.errors.full_messages.each do |message| %>
+                  <%= message %>
+                  </p>
+                <% end %>
+            </div>
+          <% end %>
+
+            <div class="form-group info">
+              <%= f.hidden_field :photo, value: @card.cached_photo_data %>
+              <%= f.file_field :photo %>
+            </div>
+
+
           <h4>Enter your Name</h4>
 
           <div class="form-group info name">
@@ -25,7 +38,9 @@
               <%= f.text_field :name, class: "form-control" %>
               <%= f.label :name, "Name (20 character maximum)" %>
             </p>
+
           </div>
+
           <div class="card-label">
               <%= f.submit "Preview", class: "done" %>
           </div>

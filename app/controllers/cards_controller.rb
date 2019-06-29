@@ -31,16 +31,14 @@ class CardsController < ApplicationController
   def update
     @card = Card.find(params[:id])
 
-    if @card.update(card_params)
+      if @card.update(card_params)
       redirect_to preview_card_path
-    else
-      render :get_photo
-    end
+
+      else
+        render :get_photo
+      end
   end
 
-  # def processing
-  #   @card = Card.find(params[:id])
-  # end
 
   def preview
     @card = Card.find(params[:id])
@@ -68,21 +66,24 @@ class CardsController < ApplicationController
 
 
   def card_params
-    params.require(:card).permit(:photo, :number, :name, :position, :info, :email)
+    params.require(:card).permit(:photo_data, :number, :name, :position, :info, :email)
   end
 
 
   def pngify
     @card = Card.find(params[:id])
 
-    respond_to do |format|
-      format.html { render "cards/templates/#{@card.design}", layout: false }
-      format.png do
-        kit = IMGKit.new(pngify_card_url(@card), width: 200, height: 1040)
+      respond_to do |format|
+        if @card.errors.any?
+          @card.errors.full_messages
+        else
+          format.html { render "cards/templates/#{@card.design}", layout: false }
+          format.png do
+            kit = IMGKit.new(pngify_card_url(@card), width: 200, height: 1040)
 
-        send_data kit.to_img(:png), type: "image/png", disposition: 'inline'
-
-      end
+            send_data kit.to_img(:png), type: "image/png", disposition: 'inline'
+         end
+       end
     end
   end
 end

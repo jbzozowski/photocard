@@ -364,6 +364,21 @@ input[type="number"] {
   color: #ed2024;
 }
 
+#error_explanation {
+  font-size: 14px;
+  color: #ed2024;
+  font-weight: bold;
+ }
+
+#error_explanation p {
+  font-size: 14px;
+  color: #ed2024;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: .5em;
+}
+
 /*spinner css*/
 
 .sk-fading-circle {
