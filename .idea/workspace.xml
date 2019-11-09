@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d11f1fd-5f79-4237-8bb0-b99f6fb0952f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -21,25 +22,50 @@
       <file leaf-file-name="cards_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
+            <state relative-caret-position="276">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding>
-                <marker date="1573242788120" expanded="true" signature="21:1650" ph=" ... end" />
-                <marker date="1573242788120" expanded="true" signature="487:528" ph=" ... end" />
-                <marker date="1573242788120" expanded="true" signature="1623:1632" ph="if ... end" />
-                <marker date="1573242788120" expanded="true" signature="1623:1640" ph="do ... end" />
-                <marker date="1573242788120" expanded="true" signature="1623:1646" ph=" ... end" />
+                <marker date="1573328262288" expanded="true" signature="1554:1652" ph="do ... end" />
+                <marker date="1573328262288" expanded="true" signature="1554:1671" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1554:2022" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1554:2035" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1554:2049" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1554:2079" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1732:2007" ph="..." />
+                <marker date="1573328262288" expanded="true" signature="1782:1990" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="203">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <marker date="1573328261983" expanded="true" signature="1541:1805" ph="do ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +105,7 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/cards/templates/phillies_a.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/cards_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -89,9 +116,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="34" />
-    <option name="width" value="718" />
+    <option name="x" value="37" />
+    <option name="y" value="51" />
+    <option name="width" value="844" />
     <option name="height" value="749" />
   </component>
   <component name="ProjectView">
@@ -176,7 +203,17 @@
       </pane>
       <pane id="RailsProjectView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="photocard" type="cbb8eebc:String" user="photocard" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,7 +362,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77306000" />
+    <option name="totallyTimeSpent" value="77476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,10 +374,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="34" width="718" height="749" extended-state="0" />
+    <frame x="37" y="51" width="844" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48964497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39526185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49695387" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48525074" sideWeight="0.5065789" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -381,24 +418,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/cards/get_photo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1573242788120" expanded="true" signature="21:1650" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="487:528" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1632" ph="if ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1640" ph="do ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1646" ph=" ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -427,13 +451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1573242788120" expanded="true" signature="21:1650" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="487:528" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1632" ph="if ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1640" ph="do ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1646" ph=" ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,13 +480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1573242788120" expanded="true" signature="21:1650" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="487:528" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1632" ph="if ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1640" ph="do ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1646" ph=" ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,17 +631,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <marker date="1573328261983" expanded="true" signature="1541:1805" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +651,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1573328262288" expanded="true" signature="1554:1652" ph="do ... end" />
+            <marker date="1573328262288" expanded="true" signature="1554:1671" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1554:2022" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1554:2035" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1554:2049" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1554:2079" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1732:2007" ph="..." />
+            <marker date="1573328262288" expanded="true" signature="1782:1990" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,15 +780,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="276">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1573242788120" expanded="true" signature="21:1650" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="487:528" ph=" ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1632" ph="if ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1640" ph="do ... end" />
-            <marker date="1573242788120" expanded="true" signature="1623:1646" ph=" ... end" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
