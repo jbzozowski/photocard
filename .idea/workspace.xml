@@ -2,8 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d11f1fd-5f79-4237-8bb0-b99f6fb0952f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_mock_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_mock_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_mock_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_mock_d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_template_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_template_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_template_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/tampacards/rays_template_d.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/championsmock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/championstemplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eagles_a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eagles_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eagles_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eaglesmock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eaglesmock2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eaglestemplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/eaglestemplate2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyers_a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyers_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyersmock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyersmock2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyerstemplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/flyerstemplate2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/mysportscard1200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/mysportscard300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/mysportscard800.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/mysportscard800a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixers_a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixers_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixersmock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixersmock2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixerstemplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/phillycards/sixerstemplate2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/designs/_eagles.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/designs/_flyers.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/designs/_sixers.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/eagles_a.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/eagles_b.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/eagles_c.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/flyers_a.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/flyers_b.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/sixers_a.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cards/templates/sixers_b.html.erb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/cards/designs/_phillies.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/designs/_rays.html.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/cards/templates/phillies_a.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/templates/rays_a.html.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/cards/templates/phillies_b.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/templates/rays_b.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cards/choose_design.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/choose_design.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cards/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,50 +73,69 @@
       <file leaf-file-name="cards_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="1065">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_rays.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/designs/_rays.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="choose_design.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/choose_design.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-              <folding>
-                <marker date="1573328262288" expanded="true" signature="1554:1652" ph="do ... end" />
-                <marker date="1573328262288" expanded="true" signature="1554:1671" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1554:2022" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1554:2035" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1554:2049" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1554:2079" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1732:2007" ph="..." />
-                <marker date="1573328262288" expanded="true" signature="1782:1990" ph="..." />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <marker date="1573328261983" expanded="true" signature="1541:1805" ph="do ... end" />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rays_a.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_a.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rays_c.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_c.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rays_d.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_d.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,13 +148,13 @@
       <find>imageupl</find>
       <find>config.i18</find>
       <find>byebug</find>
-      <find>action</find>
       <find>actionview</find>
       <find>designs</find>
       <find>patch</find>
       <find>flash</find>
       <find>photo_url</find>
       <find>:photo</find>
+      <find>action</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,9 +173,15 @@
         <option value="$PROJECT_DIR$/app/views/cards/get_photo.html.erb" />
         <option value="$PROJECT_DIR$/app/models/card.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/cards/templates/phillies_a.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/cards_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/cards/choose_design.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/templates/phillies_a.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/templates/phillies_b.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/templates/rays_c.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/templates/rays_d.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/designs/_rays.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cards/index.html.erb" />
       </list>
     </option>
   </component>
@@ -118,7 +194,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="37" />
     <option name="y" value="51" />
-    <option name="width" value="844" />
+    <option name="width" value="610" />
     <option name="height" value="749" />
   </component>
   <component name="ProjectView">
@@ -158,6 +234,29 @@
               <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
               <item name="photocard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photocard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="phillycards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photocard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="tampacards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photocard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,6 +271,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photocard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="designs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="photocard" type="b2602c69:ProjectViewProjectNode" />
@@ -220,6 +327,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="you must enter&#9;null&#9;null&#10;attacher&#9;FILE&#9;file:///usr/local/var/rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib/byebug/attacher.rb" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/cards/templates" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -362,7 +475,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77476000" />
+    <option name="totallyTimeSpent" value="79159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,17 +487,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="51" width="844" height="749" extended-state="0" />
+    <frame x="37" y="51" width="610" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39526185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5580986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49695387" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48525074" sideWeight="0.5065789" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47877014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20058565" sideWeight="0.49695387" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3572621" sideWeight="0.49347258" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48525074" sideWeight="0.49342105" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49695387" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -392,16 +508,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48525074" sideWeight="0.5065789" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3572621" sideWeight="0.49347258" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49695387" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48525074" sideWeight="0.49342105" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15319149" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47984645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -418,100 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/get_photo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/get_photo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/get_photo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/var/rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.1.6/lib/active_record/persistence.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="284" column="10" lean-forward="false" selection-start-line="284" selection-start-column="10" selection-end-line="284" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/var/rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib/byebug/attacher.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -561,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/shrine.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -582,36 +594,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/designs/_phillies.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/eaglestemplate.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/choose_design.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cards/templates/eagles_a.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/designs/_eagles.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -626,41 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <marker date="1573328261983" expanded="true" signature="1541:1805" ph="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <marker date="1573328262288" expanded="true" signature="1554:1652" ph="do ... end" />
-            <marker date="1573328262288" expanded="true" signature="1554:1671" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1554:2022" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1554:2035" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1554:2049" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1554:2079" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1732:2007" ph="..." />
-            <marker date="1573328262288" expanded="true" signature="1782:1990" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,26 +726,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cards/templates/phillies_a.html.erb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/designs/_eagles.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/mysportscard_horizontal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/mysportscard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/sixerstemplate2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/mysportscard1200.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/mysportscard800a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/mysportscard800.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/mysportscard300.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/championstemplate.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/tampacards/rays_a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/phillycards/phillies_a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="1065">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_b.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_c.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_d.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/templates/rays_a.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/choose_design.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/designs/_rays.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cards/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
