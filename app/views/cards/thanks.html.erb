@@ -22,7 +22,9 @@
     <div class="wrapper">
       <section class="thanks logo">
         <div class="" id="">
-          <%= link_to image_tag("mysportscard.png", size: "250x250", alt: "My Sports Card") %>
+          <%= link_to root_path, method: :get do %>
+          <%= image_tag("mysportscardtampa.png", size: "250x250", alt: "My Sports Card") %>
+          <% end %>
           <h1>THANK YOU!</h1>
         </div>
         <div class="thanks">
