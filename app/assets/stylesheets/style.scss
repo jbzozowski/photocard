@@ -902,14 +902,12 @@ i {
     background-position: center;
     background-image: image-url("mysportscardtampa300.png");
     background-size: cover;
-    // height: 525px;
-    // width: 400px;
     height: 450px;
     width: 350px;
     background-repeat: no-repeat;
     margin-bottom: -5em;
     margin-top: 1em;
-    //transition: all 1s ease;
+    transition: all 1s ease;
   }
 
   .intro-text h3 {
@@ -955,13 +953,14 @@ i {
   .landing {
     background-position: center;
     background-image: image-url("mysportscardtampa800.png");
-    background-size: cover;
+    background-size: 800px;
+    //background-position: center;
     height: 400px;
-    width: 1200px;
+    //width: 900px;
     background-repeat: no-repeat;
-    margin-bottom: -5em;
+    margin-bottom: -6em;
     margin-top: 1em;
-    //transition: 1s ease;
+    transition: 1s ease;
   }
 
   .intro-text h3 {
@@ -980,13 +979,14 @@ i {
   .landing {
     background-position: center;
     background-image: image-url("mysportscardtampa800.png");
-    background-size: cover;
+    background-size: 1100px;
+    //background-position: center;
     height: 450px;
-    width: 800px;
+    width: 1200px;
     background-repeat: no-repeat;
     margin-bottom: -5em;
     margin-top: 1em;
-    //transition: 1s ease;
+    transition: 1s ease;
   }
 
   .intro-text h3 {
