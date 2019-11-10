@@ -1,6 +1,6 @@
 class CardsController < ApplicationController
 
-  def index
+  def index3
   end
 
   def show
