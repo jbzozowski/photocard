@@ -23,8 +23,6 @@ Rails.application.routes.draw do
 
   get 'pages/about'
 
-  get 'welcome/index'
-
   root 'welcome#index'
 
   mount Shrine.download_endpoint => "/attachments"
