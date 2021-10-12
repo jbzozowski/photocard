@@ -99,7 +99,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.2)
-    mimemagic (0.3.3)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.9.4)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
@@ -111,7 +113,8 @@ GEM
     pdfkit (0.8.2)
     pg (1.0.0)
     public_suffix (3.0.2)
-    puma (3.12.4)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -224,7 +227,7 @@ DEPENDENCIES
   mini_magick (>= 4.3.5)
   pdfkit
   pg
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.2)
   rails-ujs
   roda
